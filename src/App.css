@@ -1,0 +1,54 @@
+.App{
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ margin:5%;
+
+}
+.cookie{
+  width: 120px;
+  height: 120px;;
+  margin: 10px
+ 
+}
+.tray{
+  width: 500px;
+  height: 300px;
+  background-color: rgb(198, 194, 194);
+  border-radius: 12px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 10%;
+  border: 4px solid grey;
+  padding:40px;
+  display: flex;
+ 
+
+}
+.outside{
+  border: 3px solid rgb(103, 103, 129);
+  max-width: 30%;
+  min-height: 120px;;
+  margin: 40px;
+  border-radius: 12px ;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 10px rgb(198, 194, 194);
+  background-color: rgb(187, 187, 176);
+ 
+
+}
+
+.container{
+  border: 4px solid rgb(92, 54, 54);
+  border-radius: 12px;;
+  width:900px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(107, 95, 95);
+}
